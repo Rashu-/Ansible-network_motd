@@ -1,0 +1,4 @@
+---
+
+# Default motd string
+motd_string: "{{ ** THIS DEVICE IS PART OF A PRIVATE NETWORK ** }}"
