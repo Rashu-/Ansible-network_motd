@@ -10,7 +10,7 @@
 - name: NXOS configure motd 
   nxos_banner:
     banner: motd
-    text: {{ motd_string }}
+    text: "{{ motd_string }}"
     state: present
   when: >
     ansible_network_os == 'nxos'
